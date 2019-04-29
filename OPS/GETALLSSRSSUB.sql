@@ -1,4 +1,5 @@
-SELECT USR.UserName AS SubscriptionOwner 
+
+CSELECT USR.UserName AS SubscriptionOwner 
       ,SUB.ModifiedDate 
       ,SUB.[Description] 
       ,SUB.EventType 
