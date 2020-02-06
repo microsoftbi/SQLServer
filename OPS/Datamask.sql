@@ -46,3 +46,7 @@ REVERT;
 --UNMASK
 Grant UNMASK TO
 TestMask
+
+
+--Get all masked fields
+select object_name(object_id),name,masking_function from sys.masked_columns
